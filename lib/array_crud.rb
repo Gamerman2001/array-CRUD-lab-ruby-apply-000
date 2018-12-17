@@ -8,7 +8,9 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  old_array = %w[Wow I am really learning]
+  old_array = %w[ Wow I am really learning]
+  array = %w[ arrays!]
+  old_array.push(array)
 end
 
 def add_element_to_start_of_array(array, element)
