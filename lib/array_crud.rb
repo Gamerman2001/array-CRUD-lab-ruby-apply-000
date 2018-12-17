@@ -26,7 +26,7 @@ end
 
 def remove_element_from_start_of_array(array)
   array= %[wow we will now take out something from the start]
-  first_spot = array.shift
+  first_spot = array.first
 end
 
 def retrieve_element_from_index(array, index_number)
