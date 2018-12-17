@@ -20,7 +20,7 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  array = %w[we will remove something from the ending of arrays\!]
+  array = %w[we will remove something from the ending of arrays!]
   last_spot = array.pop
 end
 
